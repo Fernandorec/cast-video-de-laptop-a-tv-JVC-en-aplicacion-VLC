@@ -1,0 +1,16 @@
+{
+  "name": "cast-video-laptop-a-tv-jvc-vlc",
+  "version": "1.0.0",
+  "description": "Transmite la pantalla de una laptop con Windows (incluida una pantalla extendida con monitor virtual) a una tele JVC, usando la aplicación VLC.",
+  "main": "web.js",
+  "scripts": {
+    "start": "node web.js",
+    "cast": "node cast.js",
+    "discover": "node discover.js"
+  },
+  "keywords": ["screen-sharing", "vlc", "ffmpeg", "windows", "mjpeg", "mpegts", "tv"],
+  "license": "ISC",
+  "dependencies": {
+    "chromecast-api": "^0.4.2"
+  }
+}
